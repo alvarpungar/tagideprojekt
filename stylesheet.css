@@ -172,7 +172,22 @@ header {
     flex-wrap: wrap;
     justify-content: flex-end;
     order: 1;
+    float: none;
+
 }
+
+.lable {
+    cursor: default;
+}
+
+b {
+    font-weight: bold;
+}
+
+img {
+    opacity: 0;
+}
+
 
 #uus_dialog {
     border-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQI3CibSjkdvL2exaULe_gnGj-ht_LEvMBJjjnWsi1LdyFsnoarhSK4yw") 15 stretch;
@@ -304,4 +319,69 @@ footer {
     border-top-style: solid;
     border-top-width: 5px;
     box-decoration-break: clone;
+
+#h1 {
+    border-image: none;
+    border-color: #00fff4;
+    border-image: none;
+    border-image-outset: 20px border-image-repeat : norepeat;
+    border-image-slice: 1;
+    border-left-style: double;
+    border-left-width: thick;
+    border-right-style: inherit;
+    border-right-width: medium;
+    border-top-style: none;
+    transform-origin: 10px;
+    transform-style: preserve-3d;
+    vertical-align: middle;
+    unicode-bidi: normal;
+    border-collapse: inherit;
+    border-spacing: 0px;
+    caption-side: bottom;
+    empty-cells: show;
+    table-layout: fixed;
+    counter-increment: none;
+    counter-reset: none;
+@keyframes progress-bar-stripes border-top-width : 50 px;
+    display: block;
+    overflow-x: inherit;
+    overflow-y: inherit;
+    visibility: inherit;
+    text-decoration-color: #ffd600;
+    font-feature-settings: off;
+    font-kerning: auto;
+    font-size-adjust: 1;
+    align-self: auto;
+    flex-direction: column;
+    flex-flow: column;
+    backface-visibility: hidden;
+    text-overflow: clip;
+    counter-reset: none;
+    clear: none;
+
+    flex-grow: inherit;
+    flex-shrink: inherit;
+    order: inherit;
+    perspective: 500px;
+    perspective-origin: 500px;
+    transition: hidden;
+    hyphens: auto;
+    track: none;
+@font-face : none;
+    animation: 0;
+    outline: hidden;
+    outline-color: red;
+    outline-style: outset;
+    outline-width: thick;
+    -webkit-animation-delay: time;
+    -moz-animation-delay: time;
+    -o-animation-delay: time;
+    animation-delay: time;
+    animation-direction: animation-duration: animation-name : backface-visibility,
+transition-property,
+transition-duration,
+transition-delay,
+column-width,
+columns;
+
 }

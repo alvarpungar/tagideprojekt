@@ -44,8 +44,10 @@
 
 <h3 id="h3"> Esimene</h3>
 <h4 id="h4"> Esimene</h4>
-<h5 id="h5"> Esimene</h5>
-<h6 id="h6"> Esimene</h6>
+<h5 id="h5"> Esim<b>ene</b></h5>
+<h6 style="color:blue" id="h6"> Esimene
+    <bdi>Teine</bdi>
+</h6>
 <br>
     <textarea rows="2" cols="60">
               Mida iganes siia kirjutada saab
@@ -56,6 +58,8 @@
     <p><bdo dir="rtl">on Esmaspäev hea päev</bdo></p>
 </aside>
 
+<span><a href="http://www.w3schools.com/tags/tag_span.asp">SPAN000</a></span><br>
+
 <audio controls>
     <source src="assets/Cow_Moo-Mike_Koenig-42670858.ogg" type="audio/ogg">
     <source src="assets/Cow_Moo-Mike_Koenig-42670858.mp3" type="audio/mpeg">
@@ -63,7 +67,7 @@
 <br>
 <h4>Leadership</h4>
 <blockquote id="tsitaat" cite="http://www.brainyquote.com/quotes/quotes/a/alexandert391181.html?src=t_leadership">
-    I am not afraid of an army of lions led by a sheep; I am afraid of an army of sheep led by a lion.
+    I am not <cite>afraid</cite> of an army of lions led by a sheep; I am afraid of an army of sheep led by a lion.
 </blockquote>
 <button type="button" onclick="alert('Ära näpi seda nuppu!')">I dare you!</button>
 <hr>
@@ -103,7 +107,9 @@
 <br>
 
 <div class="info">
-    <code>You shall not pass</code><br>
+    <code>You shall not pass,
+        <time>its 10pm</time>
+    </code><br>
     <em>You really think so?</em><br>
     <samp><u>But why?</samp><br>
     <small>You can't read me</u></small>
@@ -226,6 +232,7 @@
 
 <video width="300" controls>
     <source src="assets/12sec%20school%20bus%20drag%20race.mp4" type="video/mp4"
+    <track src="polesube">
 </video>
 <br>
 <footer>
