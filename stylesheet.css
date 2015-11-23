@@ -20,7 +20,6 @@ body {
     margin-top: 1px;
     margin-right: 1px;
     font-family: sans-serif;
-    font-feature-settings: on;
     font-size-adjust: 1;
 }
 
@@ -30,7 +29,6 @@ body {
     margin-left: 1px;
     margin-bottom: 1px;
     font-family: sans-serif;
-    font-feature-settings: on;
     font-size-adjust: 1;
 }
 
@@ -40,14 +38,12 @@ body {
     margin-left: 1px;
     margin-bottom: 1px;
     font-family: sans-serif;
-    font-feature-settings: on;
     font-size-adjust: 1;
 }
 
 #h14 {
     border: 1px solid blue;
     background-color: red;
-    font-feature-settings: off;
     font-size-adjust: 1;
     margin-left: 1px;
     margin-bottom: 1px;
@@ -60,7 +56,7 @@ body {
     margin-left: 1px;
     margin-bottom: 1px;
     font-family: sans-serif;
-    font-feature-settings: 1;
+    font-feature-settings: normal;
     font-size-adjust: 1;
     text-decoration: none;
     text-underline-position: right;
@@ -73,7 +69,7 @@ body {
     margin-left: 1px;
     margin-bottom: 1px;
     font-family: sans-serif;
-    font-feature-settings: off;
+    font-feature-settings: normal;
     font-size-adjust: 1;
 }
 
@@ -319,7 +315,7 @@ footer {
     border-top-style: solid;
     border-top-width: 5px;
     box-decoration-break: clone;
-
+}
 #h1 {
     border-image: none;
     border-color: #00fff4;
@@ -348,7 +344,7 @@ footer {
     overflow-y: inherit;
     visibility: inherit;
     text-decoration-color: #ffd600;
-    font-feature-settings: off;
+    font-feature-settings: normal;
     font-kerning: auto;
     font-size-adjust: 1;
     align-self: auto;
@@ -358,7 +354,6 @@ footer {
     text-overflow: clip;
     counter-reset: none;
     clear: none;
-
     flex-grow: inherit;
     flex-shrink: inherit;
     order: inherit;
@@ -373,15 +368,16 @@ footer {
     outline-color: red;
     outline-style: outset;
     outline-width: thick;
-    -webkit-animation-delay: time;
-    -moz-animation-delay: time;
-    -o-animation-delay: time;
-    animation-delay: time;
-    animation-direction: animation-duration: animation-name : backface-visibility,
-transition-property,
-transition-duration,
-transition-delay,
-column-width,
-columns;
-
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-duration: 1s;
+    animation-name: backface-visibility,
+    transition-property,
+    transition-duration,
+    transition-delay,
+    column-width,
+    columns;
 }
